@@ -20,13 +20,13 @@ int main()
    }
    */
    
-   /*c++17 feature -- structured binding*/
+   /*c++17 feature -- structured binding -have to compile it in ubuntu --doesnt work in dev c++*/
 
    for (auto it=mymap.begin();it!=mymap.end();it++)
    {
    
-      auto [v1,v2]=it.second;
-      cout<<it.first<<"  "<<v1<<"  "<<v2<<endl;
+      auto [v1,v2]=it->second;
+      cout<<it->first<<"  "<<v1<<"  "<<v2<<endl;
    }
 
 
