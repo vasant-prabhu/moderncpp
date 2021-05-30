@@ -20,7 +20,7 @@ int main()
    }
    */
    
-   /*c++17 feature -- structured binding -have to compile it in ubuntu. use --std=c++1z --doesnt work in dev c++. */
+   /*c++17 feature -- structured binding -have to compile it in ubuntu. use --std=c++1z. --doesnt work in dev c++. */
 
    for (auto it=mymap.begin();it!=mymap.end();it++)
    {
